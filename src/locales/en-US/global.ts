@@ -10,6 +10,7 @@ export default {
         switchTheme: 'Switch theme',
         fullscreen: 'Full Screen',
         github: 'Github',
+        messages: 'Messages',
       },
       themeMode: {
         light: 'Light mode',

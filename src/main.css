@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: unset;
+}
+
+.ant-menu-item {
+    display: flex !important;
+    align-items: center;
+}
+
+.scrollbar {
+    scrollbar-color: auto;
+    scrollbar-width: thin;
+}

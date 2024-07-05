@@ -9,7 +9,7 @@ export const defaultSetting: AppSetting = {
   enableGlobalSearch: true,
   enableFullScreen: true,
   enableMessage: true,
-  enableCollapseToggleBtn: true,
+  enableSideCollapseBtn: true,
   enablePageReloadBtn: true,
   enableSwitchThemeBtn: true,
   enableSwitchLangBtn: true,

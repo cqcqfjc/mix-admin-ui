@@ -6,7 +6,15 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}"
     ],
     theme: {
-        extend: {},
+        extend: {
+            zIndex: {
+                "top": "9999"
+            },
+            colors: {
+                "primary": "#1890ff",
+                "primary-dark": "#142844",
+            },
+        },
     },
     plugins: [],
 };

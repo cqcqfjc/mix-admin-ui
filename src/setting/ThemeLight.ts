@@ -15,9 +15,11 @@ export const ThemeLight: ThemeConfig = {
     Layout: {
       bodyBg: 'inherit',
       headerPadding: '0 20px 0 0',
-      headerBg: 'linear-gradient(to right, rgba(20,40,68, 1) , rgba(16,81,134, .8) 20%)',
+      headerBg: 'linear-gradient(to right, rgba(20,40,68, 1) , rgba(16,81,134, .8) 35%)',
       headerColor: '#fff',
-      lightSiderBg: 'rgba(255,255,255, .8)'
+      lightSiderBg: 'inherit',
+      footerPadding: '5px 10px',
+      footerBg: 'inherit',
     },
     Menu: {
       horizontalLineHeight: 48,
@@ -25,6 +27,7 @@ export const ThemeLight: ThemeConfig = {
       iconSize: 18,
       itemBg: 'inherit',
       activeBarBorderWidth: 0,
+      horizontalItemHoverBg: 'rgba(255,255,255,.1)',
     }
   },
 };

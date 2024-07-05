@@ -30,8 +30,16 @@ export type IMenus = {
 
 
 export type UserInfo = {
-  username: string;
-  password: string;
+  id: number,
+  name: string,
+  username: string,
+  phone: string,
+  avatar: string,
+  department: string,
+  roles: string[],
+  status: string,
+  recently_active: string,
+  created_at: string,
 }
 /**
  * @description: 授权响应参数

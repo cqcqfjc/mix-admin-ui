@@ -18,7 +18,7 @@ export const useTheme = () => {
 
   const listenColorScheme = () => {
     colorScheme.addEventListener('change', (event) => {
-      switchTheme(event.matches ? 'dark' : 'light');
+      setConfig(event.matches ? ThemeDark : ThemeLight);
     });
   };
   const removeListenColorScheme = () => {
@@ -39,7 +39,7 @@ export const useTheme = () => {
     return () => {
       removeListenColorScheme();
     };
-  }, [theme]);
+  }, [theme, config]);
 
   return {
     theme,

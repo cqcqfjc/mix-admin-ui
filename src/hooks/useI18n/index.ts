@@ -31,5 +31,7 @@ export const useI18n = () => {
     i18n.changeLanguage(locale).then();
   };
 
-  return { t, i18n, antdLocale, switchLocale };
+  const locale = i18n.language as EnabledLocale;
+
+  return { t, i18n, antdLocale, locale, switchLocale };
 };

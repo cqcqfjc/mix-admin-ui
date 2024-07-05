@@ -3,6 +3,7 @@ import { AdminContextProvider, AntdContextProvider, ApiContextProvider, defaultA
 import { AdminProps, IAdminContext } from '@/types';
 import { defaultSetting } from '@/setting';
 import { I18nextProvider } from 'react-i18next';
+import { LinearBg } from '@/components';
 
 export const Admin: React.FC<AdminProps> = ({ children, apiProvider, i18n }) => {
   const contextProps: IAdminContext = {
@@ -14,6 +15,7 @@ export const Admin: React.FC<AdminProps> = ({ children, apiProvider, i18n }) => 
       <I18nextProvider i18n={ i18n! }>
         <ApiContextProvider apiProvider={ apiProvider || defaultApi() }>
           <AntdContextProvider>
+            <LinearBg enabled={ defaultSetting.enableLinearBg }/>
             { children }
           </AntdContextProvider>
         </ApiContextProvider>

@@ -20,7 +20,7 @@ export type AppSetting = {
   enableGlobalSearch: boolean; // 是否显示全局搜索
   enableFullScreen: boolean; // 是否显示全屏按钮
   enableMessage: boolean; // 是否显示顶部消息
-  enableCollapseToggleBtn: boolean; // 是否显示侧边栏折叠按钮
+  enableSideCollapseBtn: boolean; // 是否显示侧边栏折叠按钮
   enablePageReloadBtn: boolean; // 是否显示页面刷新按钮
   enableSwitchThemeBtn: boolean; // 是否显示切换主题按钮
   enableSwitchLangBtn: boolean; // 是否显示切换语言按钮

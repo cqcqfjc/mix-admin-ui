@@ -15,9 +15,11 @@ export const ThemeDark: ThemeConfig = {
     Layout: {
       bodyBg: 'inherit',
       headerPadding: '0 20px 0 0',
-      headerBg: 'linear-gradient(to right, rgba(20,40,68, 1) , rgba(16,81,134, .8) 20%)',
+      headerBg: 'linear-gradient(to right, rgba(20,40,68, 1) , rgba(16,81,134, .8) 35%)',
       headerColor: '#fff',
-      lightSiderBg: 'rgba(20,20,20, .8)'
+      lightSiderBg: 'inherit',
+      footerPadding: '5px 10px',
+      footerBg: 'inherit',
     },
     Menu: {
       horizontalLineHeight: 48,

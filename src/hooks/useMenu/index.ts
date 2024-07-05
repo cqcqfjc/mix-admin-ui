@@ -1,3 +1,9 @@
+import { useState } from 'react';
+
 export const useMenu = () => {
-  return {};
+  const [collapsed, setCollapsed] = useState(false);
+  return {
+    collapsed,
+    setCollapsed
+  };
 };

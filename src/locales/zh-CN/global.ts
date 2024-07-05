@@ -10,6 +10,7 @@ export default {
         switchTheme: '切换主题',
         fullscreen: '全屏',
         github: 'Github',
+        messages: '消息',
       },
       themeMode: {
         light: '浅色模式',
